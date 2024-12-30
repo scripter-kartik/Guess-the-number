@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(10, 10, 10), rgb(25, 24, 25));
+}
+h1{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+p{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    color: white;
+}
+.inputbox{
+    margin-top: 50px;
+    margin-left: 8.5em;
+    width: 2em;
+    height: 1.5em;
+    border: 5px solid black;
+    font-size: 100px;
+    padding: 5px;
+    text-align: center;
+}
+.guess{
+    width: 4em;
+    height: 2em;
+    font-size: 50px;
+    margin-left: 17em;
+    border-radius: 50px;
+    margin-top: 50px;
+    padding: 5px;
+    background-color: rgb(247, 247, 128);
+    border: 5px solid black;
+}
